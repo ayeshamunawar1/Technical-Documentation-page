@@ -1,0 +1,65 @@
+/* tech documentation page */
+
+*{
+font-family: "Lato", sans-serif;
+}
+#main-doc {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 20px 20px;
+}
+#main-doc header{
+  font-size: 25px;
+  font-weight: bold;
+  border: solid 1px ;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#navbar{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.212);
+  }
+  #navbar header{
+    color: rgba(0, 0, 0, 0.932);
+    font-size: 25px;
+    font-weight: 50px;
+    text-align: center;
+  }
+#navbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.932);
+    display: block;
+  
+  }
+  
+  #navbar a:hover {
+    color: whitesmoke;
+    background-color: black;
+  }
+ .bold {
+  font-weight: bold;
+ }
+ ol > li{
+  font-weight: lighter;
+ }
+.pink {
+  color: brown;
+}
+
+
+
+  {}
